@@ -21,6 +21,26 @@ p {
     font-family: 'Exo', sans-serif;
 }
 
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+
+
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container-4x3 {
+    padding-top: 75%;
+}
 
 </style>
 
@@ -33,14 +53,18 @@ p {
 
 <p>This my Mystic Guy YouTube website where I tell you about my youtube vids such as Minecraft and other cool games. To visit my YouTube channel <a href="https://www.youtube.com/channel/UCAlfW5vy9PDYRBv8UcfPXQA" target="_blank">Click Here</a> </p>
 
-<iframe width="400" height="230" src="https://www.youtube.com/embed/xJX2naCaQDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/xJX2naCaQDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <p>These are my first Minecraft videos.</p>
 
 
 <br>
 
-<iframe width="400" height="230" src="https://www.youtube.com/embed/ibWmU33kUHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/ibWmU33kUHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 </body>
 </html>
